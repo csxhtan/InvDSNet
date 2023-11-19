@@ -10,8 +10,13 @@ Put the data you need in the data folder.
 Train
 =
 Set the training configs in train_config.py;
-Set the root of the training data and cropping size in line 63 and 64 of train.py;
-If you want to continue training on a trained model, remember to reset the resume_epoch in train_config.py.
+
+Set the root of the training data and cropping size in train.py by function Dataset();
+
+If you want to continue training on a trained model, remember to reset the resume, resume_epoch and resume_optimizer in train_config.py.
 
 Test
 =
+Set your traied model in test.py by function load_model();
+
+Set the root of your testing data in test.py.
