@@ -1,1 +1,1 @@
-The training checkpoints will be saved here
+The training checkpoints will be saved here.
