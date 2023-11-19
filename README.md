@@ -1,7 +1,6 @@
 Image Desnowing via Deep Invertible Separation
 =
 This is the official PyTorch implementation of the TCSVT 2023 Paper.
-[Here is the link of the paper.](https://ieeexplore.ieee.org/abstract/document/10004991)
 
 Data
 =
