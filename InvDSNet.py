@@ -191,9 +191,6 @@ class fuse_attention_coupling(nn.Module):
 
         self.clamp = clamp
 
-        # self.F = multi_resnet1(self.split_len2, self.split_len1)
-        # self.G = multi_resnet2(self.split_len1, self.split_len2)
-        # self.H = multi_resnet2(self.split_len1, self.split_len2)
         self.F = attention_resnet(self.split_len2, self.split_len1)
         self.G = attention_resnet(self.split_len1, self.split_len2)
         self.H = attention_resnet(self.split_len1, self.split_len2)
