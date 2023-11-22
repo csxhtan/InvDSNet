@@ -4,7 +4,9 @@ This is the official PyTorch implementation of the TCSVT 2023 Paper.
 
 Data
 -
-Put the data you need in the data folder.
+Put the training data you need under the directory 'data'.
+
+Rename the directories that contains snowy images, clean images and snow masks to 'Snow', 'Gt' and 'Mask'.
 
 Train
 -
