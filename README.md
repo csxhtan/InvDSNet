@@ -22,6 +22,12 @@ Set your traied model in test.py by function load_model();
 
 Set the root of your testing data in test.py.
 
+Pretrained model
+-
+We provide the pretrained model trained on CSD, and you could use it for testing. See the link below (pwd: invd):
+
+[Download Pretrained Model](https://pan.baidu.com/s/1AWxyk7XUpu83kMIKYz15uA)
+
 Citation
 -
     @article{quan2023image,
