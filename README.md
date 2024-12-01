@@ -40,4 +40,4 @@ Citation
 
 Contacts
 -
-If you have questions, please contact with csxiaohengtan@foxmail.com
+If you have questions, please contact with csxiaohengtan@foxmail.com.
